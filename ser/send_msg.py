@@ -3,7 +3,7 @@ import time
 import binascii 
 import keyboard
 
-ser1 = serial.Serial("/dev/ttyTHS2",100000,timeout=10)
+ser1 = serial.Serial("/dev/ttyTHS2",115200,timeout=10)
 
 
 def get_msg(ch0=1024,ch1=1024,ch2=1021,ch3=1024,s1=1,s2=2):
